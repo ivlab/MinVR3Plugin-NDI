@@ -1,0 +1,52 @@
+{
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "API Overview | Template",
+    "keywords": "API Overview Template Package provides two main features: (1) saving and loading 3D models and (2) rendering the models in a 3D scene. The key classes for accomplishing these tasks are: Saving and Loading 3D models Class Function ExampleClass Use this to do X ExampleClass Use this to do Y Rendering 3D models Class Function ExampleClass Use this to do Z"
+  },
+  "api/IVLab.Template.ExampleClass.html": {
+    "href": "api/IVLab.Template.ExampleClass.html",
+    "title": "Class ExampleClass | Template",
+    "keywords": "Class ExampleClass Simple example of what can be done in C#. This text is an XML comment, and will show up nicely formatted in the documentation associated with this class. Inheritance System.Object ExampleClass Namespace : IVLab.Template Assembly : api-documentation.dll Syntax public class ExampleClass : MonoBehaviour Methods | Improve this Doc View Source DoWork(Int32) Do some work. Declaration public int DoWork(int test) Parameters Type Name Description System.Int32 test An integer to be incremented Returns Type Description System.Int32 Returns the test parameter + 1 Examples int x = DoWork(10); Debug.Log(x); // prints 11"
+  },
+  "api/IVLab.Template.html": {
+    "href": "api/IVLab.Template.html",
+    "title": "Namespace IVLab.Template | Template",
+    "keywords": "Namespace IVLab.Template Classes ExampleClass Simple example of what can be done in C#. This text is an XML comment, and will show up nicely formatted in the documentation associated with this class."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Template Unity Package | Template",
+    "keywords": "Template Unity Package The Template Unity Package is a great package... blah blah... Getting Started Follow the Installation Guide to incorporate the Template into your project. Package introduction / overview Key classes organized by theme / functionality Read about Concept 1 Read about Concept 2"
+  },
+  "manual/changelog.html": {
+    "href": "manual/changelog.html",
+    "title": "| Template",
+    "keywords": ""
+  },
+  "manual/concept1.html": {
+    "href": "manual/concept1.html",
+    "title": "Concept 1 | Template",
+    "keywords": "Concept 1 Understanding this concept will really help when working with the Template package..."
+  },
+  "manual/concept2.html": {
+    "href": "manual/concept2.html",
+    "title": "Concept 2 | Template",
+    "keywords": "Concept 2 Concept 2 is also important."
+  },
+  "manual/install.html": {
+    "href": "manual/install.html",
+    "title": "To install Template in a Unity Project | Template",
+    "keywords": "To install Template in a Unity Project Prereqs There are no prereqs if you want to host this package on github.com, but to host this package on github.umn.edu, you will need to have SSH access to github.umn.edu and be a member of the IV/LAB Organization on github.umn.edu. Create a GitHub SSH key for your UMN GitHub account on your development machine. Unity has trouble sshing with passwords; just leave the password for this key blank. If you cannot see the IV/LAB Organization on github.umn.edu , then ask the Current Lab GitHub and Software Development Czar to please add you to the org. Install via the Unity Package Manager To use the package in a read-only mode, the same way you would for packages downloaded directly from Unity: In Unity, open Window -> Package Manager. Click the + button Select Add package from git URL Paste git@github.umn.edu:ivlab-cs/Template-UnityPackage.git for the latest package [If needed] Repeat steps 2-4 for each of these additional package dependencies: git@github.umn.edu:ivlab-cs/TemplateDependency1-UnityPackage.git git@github.umn.edu:ivlab-cs/TemplateDependency2-UnityPackage.git ... Development Mode Collectively, the lab now recommends a development process where you start by adding the package to your project in read-only mode, as described above. This way, your Unity project files will always maintain a link to download the latest version of the package from git whenever the project is loaded, and all users of the package will be including it the same way. If/when you have a need to edit the package, the process is then to \"temporarily\" switch into development mode by cloning a temporary copy of the package. Then, edit this source as needed, test your edits for as long as you like, etc. When you get to a good stopping point, commit and push the changes to github from within this temporary clone inside the Packages directory . Once the latest version of your package is on github, you can then \"switch out of development mode\" by deleting the cloned repo. This will cause Unity to revert to using the read-only version of the package, which it keeps in its internal package cache, and we can trigger Unity to update this version to the latest by removing the packages-lock.json file. In summary: Follow the read-only mode steps above. Navigate your terminal or Git tool into your Unity project's main folder and clone this repository into the packages folder, e.g., cd Packages; git clone git@github.umn.edu:ivlab-cs/Template-UnityPackage.git . This will create a Template folder that contains all the sourcecode in the package. Go for it. Edit the source you just checked out; add files, etc. However, BE VERY CAREFUL NOT TO ADD THE Template-UnityPackage FOLDER TO YOUR PROJECT'S GIT REPO. We are essentially cloning one git repo inside another here, but we do not want to add the package repo as a submodule or subdirectory of the project's repo, we just want to temporarily work with the source. When you are ready to commit and push changes to the package repo, go for it. JUST MAKE SURE YOU DO THIS FROM WITHIN THE Packages/Template-UnityPackage DIRECTORY! Once these changes are up on github, you can switch out of \"development mode\" by simply deleting the Template-UnityPackage directory. The presence of that directory is like a temporary override. Once it is gone, Unity will revert back to using the cached version of Template that it originally downloaded from git. The final step is to force a refresh of the package cache so that Unity will pull in the new version of the package you just saved to github. To do this, simply delete the packages-lock.json file inside your project's Packages folder."
+  },
+  "manual/intro.html": {
+    "href": "manual/intro.html",
+    "title": "Template Unity Package | Template",
+    "keywords": "Template Unity Package This is the manual for the Template Package. The high-level goals of the Template Package are A B C Before working with the package, it is useful to understand these two concepts: Concept 1 Concept 2"
+  },
+  "manual/license.html": {
+    "href": "manual/license.html",
+    "title": "| Template",
+    "keywords": "Copyright 2020,2021,2022 Regents of the University of Minnesota, All Rights Reserved"
+  }
+}

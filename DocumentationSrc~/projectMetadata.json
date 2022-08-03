@@ -1,0 +1,12 @@
+{
+    "_appTitle": "Template",
+    "_gitUrlPattern": "github.umn.edu",
+    "newFileRepository": {
+      "branch": "main",
+    },
+    "_gitContribute": {
+      "repo": "git@github.umn.edu/ivlab-cs/Template-UnityPackage",
+      "branch": "main",
+      "apiSpecFolder": "Documentation~/apidocs-overrides",
+    }
+}

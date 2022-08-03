@@ -1,0 +1,28 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: IVLab.Template
+  name: IVLab.Template
+  href: api/IVLab.Template.html
+  commentId: N:IVLab.Template
+  fullName: IVLab.Template
+  nameWithType: IVLab.Template
+- uid: IVLab.Template.ExampleClass
+  name: ExampleClass
+  href: api/IVLab.Template.ExampleClass.html
+  commentId: T:IVLab.Template.ExampleClass
+  fullName: IVLab.Template.ExampleClass
+  nameWithType: ExampleClass
+- uid: IVLab.Template.ExampleClass.DoWork(System.Int32)
+  name: DoWork(Int32)
+  href: api/IVLab.Template.ExampleClass.html#IVLab_Template_ExampleClass_DoWork_System_Int32_
+  commentId: M:IVLab.Template.ExampleClass.DoWork(System.Int32)
+  fullName: IVLab.Template.ExampleClass.DoWork(System.Int32)
+  nameWithType: ExampleClass.DoWork(Int32)
+- uid: IVLab.Template.ExampleClass.DoWork*
+  name: DoWork
+  href: api/IVLab.Template.ExampleClass.html#IVLab_Template_ExampleClass_DoWork_
+  commentId: Overload:IVLab.Template.ExampleClass.DoWork
+  isSpec: "True"
+  fullName: IVLab.Template.ExampleClass.DoWork
+  nameWithType: ExampleClass.DoWork

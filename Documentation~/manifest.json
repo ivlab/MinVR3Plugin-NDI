@@ -1,0 +1,212 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/dfk/ivlab-code/Unity/Template-UnityPackage/DocumentationSrc~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Template.ExampleClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Template.ExampleClass.html",
+          "hash": "Ra+mmWpi7wkxG9mnjxdp2N6yqJo/2rWOQYr8tyGTjj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Template.html",
+          "hash": "BDqaGNzn+G7TzjTE5d7hPxNvs0MbiWtuy+NVPRvPnb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "8MLlNz388ZraY6yZ5TmkarlYg2625lFaDy6VanZwTRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "AnKCMtWTUw5OqsNDPSTRydBy5kpEL5du9TSMoKVE2ow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/changelog.html",
+          "hash": "V61BfAN2z2xE1h3X6zLoguVv8stT58emH9vH7Eh9lew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concept1.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concept1.html",
+          "hash": "YKPjG3rsKnhl/kZ+DfXQgXlrbmal0C483O7+X2C/Jss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concept2.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concept2.html",
+          "hash": "2rYJ5ll7iC7BsbOpd77aNBPnbrtoAvQ77rtZHGBTtg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/install.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/install.html",
+          "hash": "3vRi3PF6vWlghs1M3wqb435tseQFLYG0Vy4qEZi3KSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/intro.html",
+          "hash": "ocKMMZ9ZbZ8gtwPeTlmkaPvFtQI10j5WTsP+6lXu81M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/license.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/license.html",
+          "hash": "T0AHmZKajqwG3cihDZDRHd5Uih4XXf9WrtSf7SiqonQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "resources/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 7
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 2
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

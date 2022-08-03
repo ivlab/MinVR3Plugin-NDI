@@ -7,18 +7,6 @@
     "description": "NDI streaming support.",
     "documentationUrl": "https://pages.github.umn.edu/ivlab-cs/MinVR3-UnityPackage",
     "hideInEditor": "false",
-    "scopedRegistries": [
-    {
-      "name": "Unity NuGet",
-      "url": "https://unitynuget-registry.azurewebsites.net",
-      "scopes": [
-        "org.nuget"
-      ]
-    }
-  ],
-  "dependencies": {
-    "org.nuget.system.memory": "4.5.3"
-  },
     "samples": [
         {
             "displayName": "Dome Rain",

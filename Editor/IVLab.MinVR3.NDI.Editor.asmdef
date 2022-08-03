@@ -1,0 +1,21 @@
+{
+    "name": "IVLab.MinVR3.NDI.Editor",
+    "rootNamespace": "",
+    "references": [
+        "IVLab.MinVR3.NDI.Runtime",
+        "IVLab.MinVR3.Runtime",
+        "IVLab.MinVR3.Editor",
+        "IVLab.MinVR3.Digistar.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

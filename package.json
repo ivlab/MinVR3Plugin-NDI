@@ -1,19 +1,17 @@
 {
-    "name": "edu.umn.cs.ivlab.template",
-    "displayName": "Template",
-    "description": "The Template package implements...",
+    "name": "edu.umn.cs.ivlab.minvr3.ndi",
+    "displayName": "MinVR3 Plugin: NDI",
     "version": "0.1.0",
     "unity": "2020.3",
-    "author": { "name": "IVLab", "email": "dfk@umn.edu", "url": "https://ivlab.cs.umn.edu" },
-    "documentationUrl": "https://pages.github.umn.edu/ivlab-cs/Template-UnityPackage",
-    "changelogUrl": "https://pages.github.umn.edu/ivlab-cs/Template-UnityPackage/manual/changelog.html",
-    "licensesUrl": "https://pages.github.umn.edu/ivlab-cs/Template-UnityPackage/manual/license.html",
+    "author": { "name": "IV/LAB", "email": "ivlab-admin@umn.edu", "url": "https://ivlab.cs.umn.edu" },
+    "description": "NDI streaming support.",
+    "documentationUrl": "https://pages.github.umn.edu/ivlab-cs/MinVR3-UnityPackage",
     "hideInEditor": "false",
     "samples": [
         {
-            "displayName": "Template Sample",
-            "description": "Demonstrates using the package in a 3D scene.",
-            "path": "Samples~/Sample1"
+            "displayName": "Dome Rain",
+            "description": "Fun example of streaming using NDI and working with dome coordinate systems.",
+            "path": "Samples~/DomeRain"
         }
     ]
 }

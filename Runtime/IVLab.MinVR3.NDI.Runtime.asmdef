@@ -1,0 +1,23 @@
+{
+    "name": "IVLab.MinVR3.NDI.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "IVLab.MinVR3.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "0",
+            "define": "KLAK_NDI_HAS_SRP"
+        }
+    ],
+    "noEngineReferences": false
+}

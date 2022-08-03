@@ -3,10 +3,22 @@
     "displayName": "MinVR3 Plugin: NDI",
     "version": "0.1.0",
     "unity": "2020.3",
-    "author": { "name": "IV/LAB", "email": "ivlab-admin@umn.edu", "url": "https://ivlab.cs.umn.edu" },
+    "author": { "name": "IVLab", "email": "ivlab-admin@umn.edu", "url": "https://ivlab.cs.umn.edu" },
     "description": "NDI streaming support.",
     "documentationUrl": "https://pages.github.umn.edu/ivlab-cs/MinVR3-UnityPackage",
     "hideInEditor": "false",
+    "scopedRegistries": [
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [
+        "org.nuget"
+      ]
+    }
+  ],
+  "dependencies": {
+    "org.nuget.system.memory": "4.5.3"
+  },
     "samples": [
         {
             "displayName": "Dome Rain",

@@ -1,3 +1,30 @@
+To resolve this error:
+```
+Library/PackageCache/edu.umn.cs.ivlab.minvr3.ndi@bd6c27564b/Runtime/ThirdParty/Interop/Find.cs(26,12): error CS0246: The type or namespace name 'Span<>' could not be found (are you missing a using directive or an assembly reference?)
+```
+
+You need to add this to your Packages/manifest.json file:
+
+```
+{
+  "scopedRegistries": [
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [
+        "org.nuget"
+      ]
+    }
+  ],
+  
+  "dependencies": {
+    "org.nuget.system.memory": "4.5.3"
+  }
+}
+```
+
+
+
 # IVLab-Template-UnityPackage
 
 This is the Dome Stream / NDI Unity package, given to the IV/LAB by Evans and Sutherland. **This package contains proprietary code, do not distribute!!!**

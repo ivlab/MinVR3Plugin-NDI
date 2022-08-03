@@ -12,13 +12,13 @@ public class DomeRain : MonoBehaviour
     public GameObject letterPrefab;
 
     [Range(0, 10000)]
-    public int numRaindrops = 1000;
+    public int numRaindrops = 2000;
 
     [Range(0.0f, 10.0f)]
-    public float initialSpeed = 1.0f;
+    public float initialSpeed = 3.5f;
 
     [Range(0.0f, 10.0f)]
-    public float acceleration = 1.0f;
+    public float acceleration = 3.5f;
 
 
     private List<GameObject> raindropObjs;

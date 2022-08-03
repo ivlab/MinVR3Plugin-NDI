@@ -1,3 +1,10 @@
+
+8/3/22:
+Instead of needing to manually edit the manifest.json file as described below, I added the files the NDI library needs to access directly to this project.  They are:
+Runtime/ThirdParty/Plugin/System.*
+If these cause trouble on any platforms, you could try to delete them manually and then follow the instructions below.
+
+
 To resolve this error:
 ```
 Library/PackageCache/edu.umn.cs.ivlab.minvr3.ndi@bd6c27564b/Runtime/ThirdParty/Interop/Find.cs(26,12): error CS0246: The type or namespace name 'Span<>' could not be found (are you missing a using directive or an assembly reference?)

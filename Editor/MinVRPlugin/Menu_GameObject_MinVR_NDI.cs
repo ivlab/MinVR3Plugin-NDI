@@ -4,6 +4,7 @@ using System;
 using Klak.Ndi;
 using ES;
 using IVLab.MinVR3.Digistar;
+using System.Collections.Generic;
 
 // disable warnings about unused functions because these editor menu functions can look to the compiler
 // as though they are never called
@@ -41,8 +42,8 @@ namespace IVLab.MinVR3.NDI
                 typeof(Camera), typeof(FisheyeRenderer));
             var fishEyeCam = fishEyeObj.GetComponent<Camera>();
             var fishEyeRend = fishEyeObj.GetComponent<FisheyeRenderer>();
-            fishEyeRend.sceneCamera = cubeMapCam;
-            fishEyeRend.autoSelectCamera = false;
+            fishEyeRend.sceneCameras = new List<Camera>();
+            fishEyeRend.sceneCameras.Add(cubeMapCam);
 
             var dispObj = MenuHelpers.CreateAndPlaceGameObject(n3, displayDevicesChild,
                 typeof(Camera), typeof(RenderTextureFromOtherCamera));

@@ -30,13 +30,8 @@ You need to add this to your Packages/manifest.json file:
 }
 ```
 
-
-
-# IVLab-Template-UnityPackage
-
-This is the Dome Stream / NDI Unity package, given to the IV/LAB by Evans and Sutherland. **This package contains proprietary code, do not distribute!!!**
-
-Refer to the [usage guide](./Usage.pdf) for details on how to use the project, except skip the import steps and instead use the Installation steps below.
+# MinVR3Plugin-NDI
+This plugin interfaces with the open source Klak implementation of the NDI network video streaming protocol.  This makes it possible to stream Unity textures, including renderbuffers, across the network.  We have used this in the Bell Museum's planetarium to render from a Unity app running on one machine to their planetarium display software running on another machine.
 
 ## Installation in a Unity Project
 
